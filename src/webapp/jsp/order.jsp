@@ -6,7 +6,7 @@
     <title> Twoje zamówienie</title>
 </head>
 
-<body>
+<body bgcolor="#7fffd4", text="#008b8b">
 <!--treść strony-->
 <h1></h1>
 <form action = "/summary">
@@ -50,7 +50,7 @@
     </fieldset>
 
     <div>
-        <input type="submit" value="Zamawiam" />
+        <input type="submit" class ="btn btn-success" value="Zamawiam" />
     </div>
 
 
