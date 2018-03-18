@@ -10,9 +10,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
+</head>
     <style>
-
+        body {
+            background-color: #8a041c;
+        }
         /* Remove the navbar's default rounded borders and increase the bottom margin */
         .navbar {
             margin-bottom: 50px;
@@ -26,18 +28,15 @@
 
         /* Add a gray background color and some padding to the footer */
         footer {
-            background-color: #f2f2f2;
+            background-color: #8b0000;
             padding: 25px;
         }
     </style>
-<body bgcolor="#9acd32">
-<h1>Welcome in my page !!!</h1>
-
-
+<body bgcolor="#8b0000">
 <div class="jumbotron">
     <div class="container text-center">
-        <h1>Online Store</h1>
-        <p>Mission, Vission & Values</p>
+        <h1>SKLEP Z GRAMI na PS4</h1>
+        <p>Poznaj wirtualną rzeczywistość !!!</p>
     </div>
 </div>
 
@@ -53,15 +52,18 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Deals</a></li>
-                <li><a href="#">Stores</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="active"><a href="#">Nowości</a></li>
+                <li><a href="#">Gry</a></li>
+                <li><a href="#">Promocje</a></li>
+                <li><a href="#">Nasze sklepy</a></li>
+                <li><a href="#">Kontakt</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Zaloguj</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Koszyk</a></li>
+                <form method="get" action="/basket">
+                    <button type="submit" name="Koszyk">Koszyk</button>
+                </form>
             </ul>
         </div>
     </div>
@@ -71,23 +73,26 @@
     <div class="row">
         <div class="col-sm-4">
             <div class="panel panel-primary">
-                <div class="panel-heading">BLACK FRIDAY DEAL</div>
+                <div class="panel-heading">WINA BIAŁE</div>
                 <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                <div class="panel-footer">Wybierz swoje ulubione wino</div>
+                <form method="get" action="/product">
+                    <button type="submit" name="Koszyk">Wybierz swoje ulubione wino</button>
+                </form>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="panel panel-danger">
-                <div class="panel-heading">BLACK FRIDAY DEAL</div>
+                <div class="panel-heading">WINA RÓŻOWE</div>
                 <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                <div class="panel-footer">Wybierz swoje ulubione wino</div>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="panel panel-success">
-                <div class="panel-heading">BLACK FRIDAY DEAL</div>
+                <div class="panel-heading">WINA CZERWONE</div>
                 <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                <div class="panel-footer">Wybierz swoje ulubione wino</div>
             </div>
         </div>
     </div>
@@ -97,23 +102,23 @@
     <div class="row">
         <div class="col-sm-4">
             <div class="panel panel-primary">
-                <div class="panel-heading">BLACK FRIDAY DEAL</div>
+                <div class="panel-heading">WINA WYTRAWNE I PÓŁWYTRAWNE</div>
                 <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                <div class="panel-footer">Wybierz swoje ulubione wino</div>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="panel panel-primary">
-                <div class="panel-heading">BLACK FRIDAY DEAL</div>
+                <div class="panel-heading">WINA SŁODKIE I PÓŁSŁODKIE</div>
                 <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                <div class="panel-footer">Wybierz swoje ulubione wino</div>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="panel panel-primary">
-                <div class="panel-heading">BLACK FRIDAY DEAL</div>
+                <div class="panel-heading">WINA MUSUJĄCE</div>
                 <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                <div class="panel-footer">Wybierz swoje ulubione wino</div>
             </div>
         </div>
     </div>
